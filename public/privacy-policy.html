@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy | FindMyPlumber</title>
+<meta name="description" content="How FindMyPlumber handles your data: Ringba call tracking and dynamic number insertion, plus the call recording notice required in California.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://findmyplumber.com/privacy-policy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FindMyPlumber">
+<meta property="og:title" content="Privacy policy | FindMyPlumber">
+<meta property="og:description" content="How FindMyPlumber handles your data: Ringba call tracking and dynamic number insertion, plus the call recording notice required in California.">
+<meta property="og:url" content="https://findmyplumber.com/privacy-policy.html">
+<meta name="theme-color" content="#0E2B45">
+<link rel="icon" type="image/png" sizes="512x512" href="/img/favicon-512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/site.css">
+<script>
+/* Defined inline BEFORE Ringba's snippet so the callback reference in the
+   snippet is never undefined. Queued calls are replayed by /js/dni.js. */
+window.__fmpDniQueue = [];
+window.__fmpDniFallback = "(831) 532-6042";
+window.__fmpDniOnNumber = function (n, t, f) { window.__fmpDniQueue.push([n, t, f]); };
+</script>
+
+<!-- ===================== BEGIN RINGBA CALL TRACKING TAG =====================
+     Replace this whole block with Ringba's generated snippet, unmodified.
+     Keep exactly one snippet per page.
+     =========================================================================== -->
+<script>
+(function(e,d) {
+    //Ringba.com phone number tracking
+    var ringba_com_tag = "PASTE_YOUR_ringba_com_tag_VALUE";
+    var _sc = d.getElementsByTagName('script'), _s = _sc[_sc.length - 1];
+    e._rgba = e._rgba || { q: [] };
+    e._rgba.q.push({
+        tag: ringba_com_tag,
+        numberClass: "dni",                 // elements Ringba renders the pool number into
+        render: true,                       // Ringba writes the number itself
+        cb: window.__fmpDniOnNumber,        // site-side hook: syncs tel: links + reports status
+        script: _s
+    });
+    if (!(e._rgba.loading = !!e._rgba.loading)) {
+        var sc = d.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
+        sc.src = '//js.callcdn.com/js_v2/min/ringba.com.js';
+        var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
+        e._rgba.loading = true;
+    }
+})(window,document);
+</script>
+<!-- ====================== END RINGBA CALL TRACKING TAG ======================= -->
+
+<script src="/js/dni.js" defer data-fallback="(831) 532-6042"></script>
+
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="/">
+      <img src="/img/favicon-32.png" width="32" height="32" alt="">
+      <span class="brand-text">FindMyPlumber<em></em></span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation"><ul><li><a href="/">Home</a></li><li><a href="/how-it-works.html">How it works</a></li><li><a href="/index.html#cities">Cities</a></li><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li></ul></nav>
+    <div class="head-cta">
+      <a class="dni-tel sm " href="tel:+18315326042" data-fallback="(831) 532-6042" data-ringba-number="true" aria-label="Call FindMyPlumber at (831) 532-6042"><span class="dni">(831) 532-6042</span></a>
+      <span class="head-cta-note">Free referral &middot; talk to a local pro</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="wrap">
+    <ul class="breadcrumb" aria-label="Breadcrumb"><li><a href="/">Home</a></li>
+      <li aria-current="page">Privacy policy</li></ul>
+    <h1>Privacy policy</h1>
+    <p class="lead">What we collect, who we share it with, and the specific detail about call tracking
+       and call recording. Last updated 2026-09-07.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap prose">
+    <p>This privacy policy applies to FindMyPlumber at findmyplumber.com ("the site", "we", "us"). The site is a
+       referral and call routing service. We are not a plumbing contractor.</p>
+
+    <h2>1. The short version</h2>
+    <ul>
+      <li>We collect what is needed to route a phone call to a plumbing professional, plus ordinary
+        website analytics.</li>
+      <li>Our call tracking provider, Ringba, collects technical session data about your visit so that
+        a call can be matched to the page you were reading.</li>
+      <li>If call recording is enabled, <strong>your call may be recorded</strong>. Details in section 5.</li>
+      <li>We do not sell your personal information in the ordinary sense of that word. We do receive
+        payment from plumbing businesses for referrals, which under California law can be treated as a
+        "sale" or "sharing" of personal information in some circumstances. Section 9 explains your
+        rights.</li>
+      <li>We do not knowingly collect information from children.</li>
+    </ul>
+
+    <h2>2. Information we collect</h2>
+    <h3>Information you give us</h3>
+    <p>When you call, you may tell us your name, address or ZIP code, telephone number, and a
+       description of the plumbing problem. When you use the contact form, you give us your name, email
+       address, city and message. You are not required to give a name to be referred.</p>
+    <h3>Information collected automatically</h3>
+    <p>Standard web server logs: IP address, browser type, device type, referring page, pages requested
+       and timestamps. We use this in aggregate to understand which pages are useful and which are not.</p>
+
+    <h2>3. Call tracking and dynamic number insertion</h2>
+    <p>The phone numbers on this site are tracked numbers provided by Ringba, a call tracking platform.
+       When a page loads, a JavaScript snippet from Ringba may replace the number you see with a number
+       from its pool. This lets the platform attribute a call to the page and campaign that generated it
+       and route the call correctly.</p>
+    <p>In doing so, Ringba records an "impression" containing technical session data about your visit.
+       That data typically includes your IP address, browser and device characteristics, the page URL
+       you called from, the referrer, any campaign or URL parameters present (for example a source or
+       keyword code from an advertisement), and a session identifier held in a cookie or equivalent
+       browser storage. Ringba starts a timer when it assigns a number so that a call placed within the
+       session can be matched to the impression.</p>
+    <p>We do not control Ringba's systems. Ringba processes this data as our service provider for call
+       tracking, under its own terms and privacy policy. If the tracking script fails to load, the
+       fallback number on the page still works and no session data is sent.</p>
+
+    <h2>4. Cookies and similar technologies</h2>
+    <p>The site itself sets no advertising cookies. The call tracking provider may set a cookie or use
+       equivalent browser storage to maintain the session that connects a page visit to a subsequent
+       call. Browser settings can block third-party scripts and cookies; if you do so, the site still
+       works and the fallback phone number is still displayed and still routed, but call attribution
+       will not function.</p>
+
+    <h2>5. Call recording &mdash; please read this section</h2>
+    <div class="note warn">
+      <p><strong>Notice:</strong> calls made to numbers published on this site <strong>may be recorded
+      and monitored</strong> for quality assurance, training, dispute resolution, and to route and
+      attribute the call. Recording is a feature of the call tracking platform and may be enabled on the
+      campaign serving your call.</p>
+    </div>
+    <p>Call recording consent law varies by jurisdiction. A number of U.S. states, <strong>including
+       California</strong>, require the consent of all parties to record a telephone conversation
+       (California Penal Code section 632 applies to confidential communications). Because this site
+       serves callers in California and elsewhere, we give notice here and by automated or live
+       announcement on the call where the campaign is configured to provide one.</p>
+    <p><strong>If you do not want your call recorded, say so at the start of the call, or do not
+       call.</strong> You can instead use the contact form on the <a href="/contact.html">contact
+       page</a>, which is not recorded.</p>
+    <p>Recordings may be shared with the plumbing professional who receives the referral, to the extent
+       needed to serve you.</p>
+
+    <h2>6. Who we share information with</h2>
+    <ul>
+      <li><strong>The plumbing professional you are referred to</strong> — your location, contact
+        details and description of the problem, so they can serve you.</li>
+      <li><strong>Ringba</strong>, our call tracking provider, as described in section 3.</li>
+      <li><strong>Our hosting provider</strong>, which processes server logs.</li>
+      <li><strong>Where legally required</strong> — in response to a valid subpoena, court order or
+        other legal process.</li>
+    </ul>
+    <p>We do not share your information with unrelated third parties for their own marketing.</p>
+
+    <h2>7. Data retention</h2>
+    <p>Call tracking impressions and call records are retained by Ringba according to the retention
+       settings configured on the account, typically for a period measured in months for reporting
+       purposes. Contact form messages are retained until the enquiry is resolved. Server logs are
+       retained on a rolling basis. You can request deletion at any time under section 9.</p>
+
+    <h2>8. Security</h2>
+    <p>The site is served over HTTPS. Phone numbers are transmitted over the public telephone network,
+       which is not encrypted end to end. Do not send sensitive information such as payment card
+       numbers, Social Security numbers or full account credentials through the contact form or by
+       leaving them in a voicemail.</p>
+
+    <h2>9. Your rights</h2>
+    <p>Depending on where you live, you may have rights to access, correct, delete or restrict the use
+       of your personal information, and to opt out of the "sale" or "sharing" of personal information.</p>
+    <h3>California residents (CCPA / CPRA)</h3>
+    <p>If you are a California resident you have the right to: know what personal information we have
+       collected about you and why; request deletion; request correction; opt out of the sale or sharing
+       of personal information; and limit the use of sensitive personal information. You may exercise
+       these rights by emailing <a href="mailto:hello@findmyplumber.com">hello@findmyplumber.com</a>. We will not discriminate against
+       you for exercising them. Note that opting out of sharing may mean we cannot attribute or route
+       your call, though the fallback number will still connect.</p>
+    <h3>Do Not Track</h3>
+    <p>The site does not track you across unrelated third-party websites. The call tracking described in
+       section 3 is first-party attribution of a call to a page on this site.</p>
+    <h3>Other jurisdictions</h3>
+    <p>If you are in a jurisdiction with similar rights, contact us at
+       <a href="mailto:hello@findmyplumber.com">hello@findmyplumber.com</a> and we will respond within a reasonable period.</p>
+
+    <h2>10. Children</h2>
+    <p>This site is not directed at children under 13 (or under 16 where applicable law requires it) and
+       we do not knowingly collect personal information from them.</p>
+
+    <h2>11. Third-party links</h2>
+    <p>City pages describe local conditions using publicly available data. Where we reference a utility,
+       a city program or a government body, that is a reference, not an endorsement, and those
+       organisations' own privacy policies apply to their sites.</p>
+
+    <h2>12. Changes to this policy</h2>
+    <p>If we change this policy we will update the date at the top of this page. Material changes to
+       call recording practice will be reflected on the pages that display a phone number.</p>
+
+    <h2>13. Contact</h2>
+    <p>FindMyPlumber<br>Email: <a href="mailto:hello@findmyplumber.com">hello@findmyplumber.com</a><br>
+       Referral line (may be recorded): (831) 532-6042</p>
+    <p>FindMyPlumber operates no public retail or trade office and employs no plumbers.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="f-col f-brand">
+        <h3>FindMyPlumber</h3>
+        <p>A free referral service that connects you with licensed local plumbing
+           professionals across California's Central Coast. We are not a plumbing
+           company and we do not perform plumbing work.</p>
+        <p style="margin:12px 0"><a class="dni-tel sm " href="tel:+18315326042" data-fallback="(831) 532-6042" data-ringba-number="true" aria-label="Call FindMyPlumber at (831) 532-6042"><span class="dni">(831) 532-6042</span></a></p>
+        <p class="foot-disclosure">Calls may be routed to a network of licensed local plumbing professionals.</p>
+      </div>
+      <div class="f-cities"><div class="f-col"><h3>Monterey Co.</h3><ul><li><a href="/cities/salinas.html">Salinas</a></li><li><a href="/cities/monterey.html">Monterey</a></li><li><a href="/cities/seaside.html">Seaside</a></li><li><a href="/cities/marina.html">Marina</a></li><li><a href="/cities/pacific-grove.html">Pacific Grove</a></li><li><a href="/cities/soledad.html">Soledad</a></li><li><a href="/cities/greenfield.html">Greenfield</a></li></ul></div><div class="f-col"><h3>Santa Cruz Co.</h3><ul><li><a href="/cities/watsonville.html">Watsonville</a></li><li><a href="/cities/santa-cruz.html">Santa Cruz</a></li></ul></div><div class="f-col"><h3>San Benito Co.</h3><ul><li><a href="/cities/hollister.html">Hollister</a></li></ul></div><div class="f-col"><h3>Santa Clara Co.</h3><ul><li><a href="/cities/gilroy.html">Gilroy</a></li></ul></div><div class="f-col"><h3>San Luis Obispo Co.</h3><ul><li><a href="/cities/paso-robles.html">Paso Robles</a></li><li><a href="/cities/atascadero.html">Atascadero</a></li><li><a href="/cities/san-luis-obispo.html">San Luis Obispo</a></li><li><a href="/cities/pismo-beach.html">Pismo Beach</a></li><li><a href="/cities/morro-bay.html">Morro Bay</a></li></ul></div><div class="f-col"><h3>Santa Barbara Co.</h3><ul><li><a href="/cities/santa-barbara.html">Santa Barbara</a></li><li><a href="/cities/santa-maria.html">Santa Maria</a></li></ul></div></div>
+    </div>
+
+    <div class="foot-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/how-it-works.html">How it works</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/privacy-policy.html">Privacy policy</a></li>
+        <li><a href="/terms.html">Terms of service</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
+
+    <div class="foot-legal">
+      <p><strong>Disclosure:</strong> FindMyPlumber is a free referral service, not a plumbing company. We do not perform plumbing work and we are not a licensed contractor. When you call, your call may be routed to a network of independent, licensed local plumbing professionals who contact you directly. Any agreement, quote, warranty or invoice is between you and the plumber you choose to hire.</p>
+      <p>&copy; 2026 FindMyPlumber.com. All rights reserved. Contractor licensing, insurance,
+         pricing and workmanship are the sole responsibility of the independent plumbing
+         professional you choose to hire. Nothing on this site is a guarantee of price,
+         availability or response time.</p>
+    </div>
+  </div>
+</footer>
+
+<a class="sticky-call" href="tel:+18315326042">
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .7-.2 1l-2.3 2.2z"/></svg>
+  <span class="sticky-label">Call now</span>
+  <span class="dni sticky-num">(831) 532-6042</span>
+</a>
+
+
+</body>
+</html>

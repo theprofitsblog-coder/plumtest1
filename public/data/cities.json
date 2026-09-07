@@ -1,0 +1,503 @@
+[
+ {
+  "slug": "salinas",
+  "name": "Salinas",
+  "county": "Monterey County",
+  "zips": [
+   "93901",
+   "93905",
+   "93906",
+   "93907"
+  ],
+  "neighborhoods": [
+   "East Salinas (Alisal District)",
+   "North Salinas",
+   "Creekbridge",
+   "Palma Vista",
+   "Natividad",
+   "Downtown / Main Street",
+   "Harden Ranch",
+   "Los Pueblos"
+  ],
+  "nearby": [
+   "Prunedale",
+   "Boronda",
+   "Spreckels",
+   "Castroville",
+   "Marina",
+   "Seaside",
+   "Chualar",
+   "San Juan Bautista"
+  ],
+  "url": "/cities/salinas.html",
+  "batch": 1
+ },
+ {
+  "slug": "monterey",
+  "name": "Monterey",
+  "county": "Monterey County",
+  "zips": [
+   "93940",
+   "93942",
+   "93943",
+   "93944"
+  ],
+  "neighborhoods": [
+   "New Monterey",
+   "Old Monterey / State Historic Park area",
+   "Del Monte",
+   "Skyline Forest",
+   "Casanova-Oak Knoll",
+   "North Fremont"
+  ],
+  "nearby": [
+   "Pacific Grove",
+   "Carmel-by-the-Sea",
+   "Del Rey Oaks",
+   "Sand City",
+   "Seaside",
+   "Pebble Beach",
+   "Carmel Valley Village",
+   "Big Sur"
+  ],
+  "url": "/cities/monterey.html",
+  "batch": 1
+ },
+ {
+  "slug": "watsonville",
+  "name": "Watsonville",
+  "county": "Santa Cruz County",
+  "zips": [
+   "95075",
+   "95076",
+   "95077"
+  ],
+  "neighborhoods": [
+   "Downtown Watsonville",
+   "Rio Del Mar area",
+   "Pajaro (across the river)",
+   "Freedom / Amesti area",
+   "Corralitos",
+   "La Selva Beach area"
+  ],
+  "nearby": [
+   "Pajaro",
+   "Freedom",
+   "Amesti",
+   "Corralitos",
+   "La Selva Beach",
+   "Watsonville Slough",
+   "Aromas",
+   "Salinas"
+  ],
+  "url": "/cities/watsonville.html",
+  "batch": 1
+ },
+ {
+  "slug": "santa-cruz",
+  "name": "Santa Cruz",
+  "county": "Santa Cruz County",
+  "zips": [
+   "95060",
+   "95062",
+   "95064",
+   "95067"
+  ],
+  "neighborhoods": [
+   "Westside",
+   "Eastside / Branciforte",
+   "Beach Hill",
+   "Seabright",
+   "Downtown",
+   "River Street",
+   "Mission Hill",
+   "UCSC / lower campus area",
+   "Bonny Doon"
+  ],
+  "nearby": [
+   "Capitola",
+   "Soquel",
+   "Live Oak",
+   "Aptos",
+   "Scotts Valley",
+   "Felton",
+   "Ben Lomond",
+   "Boulder Creek",
+   "Bonny Doon"
+  ],
+  "url": "/cities/santa-cruz.html",
+  "batch": 1
+ },
+ {
+  "slug": "gilroy",
+  "name": "Gilroy",
+  "county": "Santa Clara County",
+  "zips": [
+   "95020",
+   "95021"
+  ],
+  "neighborhoods": [
+   "Downtown Gilroy",
+   "Eagle Ridge",
+   "Northeast Gilroy",
+   "South Gilroy / Morgan Hill Road corridor",
+   "Gavilan District"
+  ],
+  "nearby": [
+   "Morgan Hill",
+   "San Martin",
+   "Aromas",
+   "Hollister",
+   "San Juan Bautista",
+   "Coyote Valley"
+  ],
+  "url": "/cities/gilroy.html",
+  "batch": 1
+ },
+ {
+  "slug": "hollister",
+  "name": "Hollister",
+  "county": "San Benito County",
+  "zips": [
+   "95023",
+   "95024"
+  ],
+  "neighborhoods": [
+   "Downtown Hollister",
+   "Northside",
+   "Ridgemark area",
+   "Sunridge / Vista Hills area",
+   "south Hollister along Highway 25"
+  ],
+  "nearby": [
+   "San Juan Bautista",
+   "Aromas",
+   "Tres Pinos",
+   "Ridgemark",
+   "Paicines",
+   "Gilroy"
+  ],
+  "url": "/cities/hollister.html",
+  "batch": 1
+ },
+ {
+  "slug": "seaside",
+  "name": "Seaside",
+  "county": "Monterey County",
+  "zips": [
+   "93955"
+  ],
+  "neighborhoods": [
+   "Noank",
+   "East Seaside",
+   "Fort Ord-area neighborhoods",
+   "Downtown Seaside",
+   "Del Monte Blvd corridor",
+   "CSUMB / former Fort Ord area"
+  ],
+  "nearby": [
+   "Monterey",
+   "Marina",
+   "Del Rey Oaks",
+   "Sand City",
+   "Salinas",
+   "Pacific Grove"
+  ],
+  "url": "/cities/seaside.html",
+  "batch": 1
+ },
+ {
+  "slug": "santa-barbara",
+  "name": "Santa Barbara",
+  "county": "Santa Barbara County",
+  "zips": [
+   "93101",
+   "93103",
+   "93105",
+   "93107",
+   "93108",
+   "93109",
+   "93110",
+   "93111"
+  ],
+  "neighborhoods": [
+   "Downtown / State Street",
+   "the Mesa",
+   "Samarkand",
+   "the Riviera",
+   "Westside",
+   "Eastside",
+   "Hope Ranch area",
+   "Oak Park area"
+  ],
+  "nearby": [
+   "Montecito",
+   "Summerland",
+   "Carpinteria",
+   "Goleta",
+   "Isla Vista",
+   "Mission Canyon"
+  ],
+  "url": "/cities/santa-barbara.html",
+  "batch": 1
+ },
+ {
+  "slug": "paso-robles",
+  "name": "Paso Robles",
+  "county": "San Luis Obispo County",
+  "zips": [
+   "93446",
+   "93447"
+  ],
+  "neighborhoods": [
+   "Downtown / City Park area",
+   "Spring Street corridor",
+   "east side along Highway 46",
+   "Creekside / Niblick area",
+   "west-side hills toward the wineries"
+  ],
+  "nearby": [
+   "Atascadero",
+   "Templeton",
+   "San Miguel",
+   "Lake Nacimiento",
+   "Estrella",
+   "Santa Margarita",
+   "Whitley Gardens"
+  ],
+  "url": "/cities/paso-robles.html",
+  "batch": 1
+ },
+ {
+  "slug": "marina",
+  "name": "Marina",
+  "county": "Monterey County",
+  "zips": [
+   "93933"
+  ],
+  "neighborhoods": [
+   "Marina Beach area",
+   "Reservation Communities",
+   "Downtown Marina",
+   "north Marina toward the dunes",
+   "south Marina along Highway 1"
+  ],
+  "nearby": [
+   "Fort Ord area",
+   "Seaside",
+   "Monterey",
+   "Salinas",
+   "Castroville",
+   "Del Rey Oaks"
+  ],
+  "url": "/cities/marina.html",
+  "batch": 1
+ },
+ {
+  "slug": "pacific-grove",
+  "name": "Pacific Grove",
+  "county": "Monterey County",
+  "zips": [
+   "93950"
+  ],
+  "neighborhoods": [
+   "Lovers Point area",
+   "downtown Pacific Grove / Pine Avenue",
+   "Asilomar area",
+   "Butterfly Grove neighborhood",
+   "east side toward Del Monte"
+  ],
+  "nearby": [
+   "Monterey",
+   "Del Rey Oaks",
+   "Pebble Beach",
+   "Carmel-by-the-Sea",
+   "Seaside"
+  ],
+  "url": "/cities/pacific-grove.html",
+  "batch": 1
+ },
+ {
+  "slug": "atascadero",
+  "name": "Atascadero",
+  "county": "San Luis Obispo County",
+  "zips": [
+   "93422"
+  ],
+  "neighborhoods": [
+   "downtown / Administration Building area",
+   "colony-era neighborhoods off El Camino Real",
+   "west-side hills",
+   "the flats along El Camino Real",
+   "Joaquin / Santa Ana area"
+  ],
+  "nearby": [
+   "Paso Robles",
+   "Templeton",
+   "Santa Margarita",
+   "Morro Bay",
+   "San Luis Obispo",
+   "Creston"
+  ],
+  "url": "/cities/atascadero.html",
+  "batch": 1
+ },
+ {
+  "slug": "san-luis-obispo",
+  "name": "San Luis Obispo",
+  "county": "San Luis Obispo County",
+  "zips": [
+   "93401",
+   "93405",
+   "93406",
+   "93407",
+   "93410"
+  ],
+  "neighborhoods": [
+   "Downtown / Higuera Street",
+   "Foothill area",
+   "the Meadows",
+   "Cerro / Bishop Peak foothills",
+   "south SLO along Highway 101"
+  ],
+  "nearby": [
+   "Avila Beach",
+   "Shell Beach",
+   "Grover Beach",
+   "Pismo Beach",
+   "Atascadero",
+   "Edna Valley"
+  ],
+  "url": "/cities/san-luis-obispo.html",
+  "batch": 1
+ },
+ {
+  "slug": "santa-maria",
+  "name": "Santa Maria",
+  "county": "Santa Barbara County",
+  "zips": [
+   "93454",
+   "93455",
+   "93456",
+   "93457",
+   "93458"
+  ],
+  "neighborhoods": [
+   "downtown Santa Maria / Broadway",
+   "Foxenwood area",
+   "Preisker Park area",
+   "Orcutt (adjacent)",
+   "south Santa Maria along Highway 101"
+  ],
+  "nearby": [
+   "Orcutt",
+   "Nipomo",
+   "Guadalupe",
+   "Lompoc",
+   "Santa Barbara",
+   "Los Alamos"
+  ],
+  "url": "/cities/santa-maria.html",
+  "batch": 1
+ },
+ {
+  "slug": "soledad",
+  "name": "Soledad",
+  "county": "Monterey County",
+  "zips": [
+   "93960"
+  ],
+  "neighborhoods": [
+   "downtown Soledad",
+   "north Soledad along Highway 101",
+   "east side toward the river",
+   "newer subdivisions south of town"
+  ],
+  "nearby": [
+   "Greenfield",
+   "Gonzales",
+   "Salinas",
+   "Chualar",
+   "King City",
+   "Mission Nuestra Señora de la Soledad"
+  ],
+  "url": "/cities/soledad.html",
+  "batch": 1
+ },
+ {
+  "slug": "pismo-beach",
+  "name": "Pismo Beach",
+  "county": "San Luis Obispo County",
+  "zips": [
+   "93448",
+   "93449"
+  ],
+  "neighborhoods": [
+   "downtown Pismo Beach / Price Street",
+   "Beach Street and the bluff area",
+   "Shell Beach (adjacent)",
+   "Grover Heights area",
+   "south Pismo toward the dunes"
+  ],
+  "nearby": [
+   "Grover Beach",
+   "Shell Beach",
+   "Oceano",
+   "Arroyo Grande",
+   "Avila Beach",
+   "San Luis Obispo",
+   "Nipomo"
+  ],
+  "url": "/cities/pismo-beach.html",
+  "batch": 1
+ },
+ {
+  "slug": "morro-bay",
+  "name": "Morro Bay",
+  "county": "San Luis Obispo County",
+  "zips": [
+   "93442"
+  ],
+  "neighborhoods": [
+   "the Embarcadero / waterfront",
+   "downtown Morro Bay",
+   "north Morro Bay toward the state park",
+   "hillside streets east of town",
+   "Los Osos (adjacent, unincorporated)"
+  ],
+  "nearby": [
+   "Los Osos",
+   "Baywood Park",
+   "Cayucos",
+   "Atascadero",
+   "San Luis Obispo",
+   "Morro Bay State Park"
+  ],
+  "url": "/cities/morro-bay.html",
+  "batch": 1
+ },
+ {
+  "slug": "greenfield",
+  "name": "Greenfield",
+  "county": "Monterey County",
+  "zips": [
+   "93927"
+  ],
+  "neighborhoods": [
+   "downtown Greenfield",
+   "north Greenfield along Highway 101",
+   "south Greenfield toward King City",
+   "east side toward the river"
+  ],
+  "nearby": [
+   "King City",
+   "Soledad",
+   "Chualar",
+   "Gonzales",
+   "Salinas",
+   "San Ardo"
+  ],
+  "url": "/cities/greenfield.html",
+  "batch": 1
+ }
+]

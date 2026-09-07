@@ -1,0 +1,9 @@
+# FindMyPlumber
+# Referral service. All public pages are indexable; nothing here is private.
+User-agent: *
+Allow: /
+Disallow: /data/
+
+# City pages are published in batches. Batch 1 (18 cities) is live.
+# Later batches are added as their pages are written to the same standard.
+Sitemap: https://findmyplumber.com/sitemap.xml

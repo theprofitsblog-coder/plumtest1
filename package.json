@@ -1,0 +1,15 @@
+{
+  "name": "plumtest1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static pay-per-call plumber referral site (batch 1)",
+  "scripts": {
+    "build": "python3 src/build.py",
+    "qa": "python3 src/build.py --qa",
+    "test": "node test/dni.test.js",
+    "serve": "python3 -m http.server 8000 --bind 0.0.0.0 --directory public"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}
